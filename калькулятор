@@ -1,0 +1,18 @@
+a = int(input('введите первое число:'))
+b = int(input('введите второе число:'))
+c = input('введите действие:')
+print(a)
+print(b)
+print(c)
+if c == 'деление':
+    print(a / b)
+elif c == 'умножение':
+    print(a * b)
+elif c == 'сложение':
+    print(a + b)
+elif c == 'вычитание':
+    print(a - b)
+elif c == 'возведение в степень':
+    print(a**b)
+else:
+    print('ошибка')
